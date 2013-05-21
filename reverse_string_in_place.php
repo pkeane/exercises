@@ -5,7 +5,8 @@ $tests = array(
   'a',
   'an even string',
   'an odd string',
-  'dghfgjdfgjfvdfms fjfgjjfgjisfg fogoitgoittg fgsrgoirgjir'
+  'a man a plan a canal panama!',
+  '',
 );
 
 
