@@ -11,13 +11,14 @@ print fizzBuzz($fizz,$buzz,$range);
 
 function fizzbuzz($fizz,$buzz,$range) {
   foreach (range(1,$range) as $i) {
-    print $i." ";
     if (0 == $i%15) {
       print "FIZZBUZZ";
     } elseif (0 == $i%3) {
       print "FIZZ"; 
     } elseif (0 == $i%5) {
       print "BUZZ";
+    } else {
+      print $i;
     }
     print "\n";
   }
