@@ -43,3 +43,11 @@ print "\n";
 $here = $here - $amy;
 print decbin($here);
 print "\n";
+
+
+$x = 8^4; //12
+print "8^4 is $x\n";
+$y = 8^8; //exclusive 0
+$z = 8|8; //inclusive 8
+print "8^8 is $y\n";
+print "8|8 is $z\n";
